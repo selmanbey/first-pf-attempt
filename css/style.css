@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  position: relative;
+  background-color: #111;
+  width: device-width;
+  height: 12vh;
+  margin-bottom: 2vh;
+}
+.footer {
+  background-color: #111;
+  width: device-width;
+  height: 4vh;
+  margin-top: 2vh;
+}
+.main{
+  position: relative;
+  margin: 4vw;
+  min-height: 80vh;
+}
+.buttons {
+  position: absolute;
+  top: 35%;
+  left: 16%;
+}
+.cv {
+  display: inline-block;
+  border: 0;
+  border-width: 0.1vw;
+  width: 8vw;
+  height: 26vw;
+  background-size: contain;
+  background-image: url("http://res.cloudinary.com/selmanbey/image/upload/v1480503816/cv1_uaezk2.jpg");
+}
+.cv:hover {
+  background-image: url("http://res.cloudinary.com/selmanbey/image/upload/v1480503817/cv2_khuiiv.jpg");
+}
+
+.philosophy-stuff {
+  display: inline-block;
+  width: 24vw;
+  height: 26vw;
+  background-image: url("http://res.cloudinary.com/selmanbey/image/upload/v1480505887/phils1_ccceux.jpg");
+  background-size: contain;
+}
+.philosophy-stuff:hover {
+  background-image: url("http://res.cloudinary.com/selmanbey/image/upload/v1480505887/phils2_a7bfyg.jpg");
+}
+.photography-stuff {
+  display: inline-block;
+  width: 19vw;
+  height: 26vw;
+  background-image: url("http://res.cloudinary.com/selmanbey/image/upload/v1480509529/phots1_b9swkb.jpg");
+  background-size: contain;
+}
+.photography-stuff:hover {
+  background-image: url("http://res.cloudinary.com/selmanbey/image/upload/v1480509530/phots2_kpup7y.jpg");
+}
+.other {
+  display: inline-block;
+  width: 9vw;
+  height: 26vw;
+  background-image: url("http://res.cloudinary.com/selmanbey/image/upload/v1480510556/other1_wsgtbo.jpg");
+  background-size: contain;
+ }
+.other:hover {
+  background-image: url("http://res.cloudinary.com/selmanbey/image/upload/v1480510556/other2_pdmdkh.jpg");
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
+  line-height: 4vw;
+  text-align: center;
+  font-weight: 400;
+}
+h1 {
+  position: absolute;
+  float: right;
+  right: 10%;
+  top: 15%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 7vmin;
+  font-weight: 300;
+}
+#head1, #head2, #head3, #head4 {
+  visibility: hidden;
+}
+
+@media (min-width:1200px) {
+  p {
+    font-size: 1vw;
+    line-height: 4vh;
+  } 
+  .buttons {
+  position: absolute;
+  top: 20%;
+  left: 16%;
+}
+}
