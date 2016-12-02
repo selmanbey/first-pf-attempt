@@ -1,50 +1,30 @@
-/*cv*/
+/*cv-button*/
 $(".cv").hover(
        function () {$("#head1").css("visibility", "visible")},
-         function () {$("#head1").css("visibility", "hidden") 
+         function () {$("#head1").css("visibility", "hidden")
                      });
-/*
-$(".cv").hover(
-       function () {$(".header, .footer").css("background-color", "#7e4e31")},
-         function () {$(".header, .footer").css("background-color", "#111")
-                     }); */
 
-/*philosophy-stuff*/
+/*philosophy-stuff-button*/
 $(".philosophy-stuff").hover(
        function () {$("#head2").css("visibility", "visible")},
          function () {$("#head2").css("visibility", "hidden") 
                      });
-/*
-$(".philosophy-stuff").hover(
-       function () {$(".header, .footer").css("background-color", "#812933")},
-         function () {$(".header, .footer").css("background-color", "#111") 
-                     }); */
 
-/*photography-stuff*/
+/*photography-stuff-button*/
 
 $(".photography-stuff").hover(
        function () {$("#head3").css("visibility", "visible")},
          function () {$("#head3").css("visibility", "hidden") 
                      });
 
-/*
-$(".photography-stuff").hover(
-       function () {$(".header, .footer").css("background-color", "#363d55")},
-         function () {$(".header, .footer").css("background-color", "#111") 
-                     }); */
 
-/*other*/
+/*other-button*/
 $(".other").hover(
        function () {$("#head4").css("visibility", "visible")},
          function () {$("#head4").css("visibility", "hidden") 
                      });
-/*
-$(".other").hover(
-       function () {$(".header, .footer").css("background-color", "#1b684c")},
-         function () {$(".header, .footer").css("background-color", "#111") 
-                     }); */
 
-/*SMOOTH SCROLL*/
+/*SMOOTH SCROLLING --admittedly, I've just copy-pasted this from another website: I really don't understand how and why the code works here. But hey! It works :) */
 $(function() { $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
