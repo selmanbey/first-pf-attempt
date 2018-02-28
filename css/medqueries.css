@@ -1,0 +1,188 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * *  MEDIA QUERIES  * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * *  * * * * * * * * * * * * * * * * ** * * * * * */
+
+
+@media screen and (max-width: 1000px) {
+    /* * * * * * * * * * * * * * * * * *
+    * * *  MAX:1000PX  NAV-DIV   * * * *
+    * * * * * * * * * * * * * * * * * */
+    .nav-div {
+      width: 78%;
+      height: 88%;
+      justify-content: center;
+      align-items: center;
+      padding: 1%;
+    }
+  
+    .filler1 {
+      width: 20%;
+      height: 10%;
+    }
+  
+    .filler2 {
+      width: 80%;
+      height: 10%;
+    }
+  
+    .head-div {
+      width: 20%;
+      height: 90%;
+      order: -1;
+    }
+  
+    /* * * * * * * * * * * * * * * * * *
+    * * *   MAX:1000PX  NAV-DIV  * * * *
+    * * * * * * * * * * * * * * * * * */
+    .proj1 {
+      width: 24%;
+      height: 49%;
+      margin-right: 1%;
+      margin-bottom: 1%;
+    }
+  
+    .proj2 {
+      width: 75%;
+      height: 49%;
+      margin-right: 0%;
+      margin-bottom: 1%;
+    }
+  
+    .proj3 {
+      width: 59%;
+      height: 50%;
+      margin-right: 1%;
+    }
+  
+    .proj4 {
+      width: 40%;
+      margin: 0%;
+      height: 50%;
+    }
+  
+    /* * * * * * * * * * * * * * * * * *
+    * * *   MAX:1000PX  NAV-DIV  * * * *
+    * * * * * * * * * * * * * * * * * */
+    .head-div {
+      writing-mode: vertical-rl;
+      transform: rotate(-180deg);
+      overflow: visible;
+      white-space: nowrap;
+      text-align: right;
+    }
+  
+    .name {
+      margin: 2vmin;
+    }
+  
+    .title {
+      margin: 2vmin;
+    }
+  
+    .japan-circle {
+      transform: translate(3vmin, -600vmin);
+      transition: transform 300ms ease-in-out;
+    }
+  
+    .japan-circle.animate {
+      transform: translate(3vmin, 30vmin);
+      transition: transform 300ms ease-in-out;
+    }
+  }
+  
+  @media screen and (max-width: 410px) {
+    /* * * * * * * * * * * * * * * * * *
+    * * *  MAX:410PX   NAV-DIV   * * * *
+    * * * * * * * * * * * * * * * * * */
+    .nav-div {
+      width: 98%;
+      height: 88%;
+      justify-content: center;
+      align-items: center;
+      padding: 1%;
+    }
+  
+    .filler1, .filler2 {
+      display: none;
+    }
+  
+    .head-div {
+      width: 100%;
+      height: 10%;
+      order: -1;
+    }
+  
+    /* * * * * * * * * * * * * * * * * *
+    * * *   MAX:410PX  NAV-DIV   * * * *
+    * * * * * * * * * * * * * * * * * */
+    .proj1 {
+      width: 100%;
+      height: 13%;
+      margin-right: 0%;
+      margin-bottom: 1%;
+    }
+  
+    .proj2 {
+      width: 100%;
+      height: 38%;
+      margin-right: 0%;
+      margin-bottom: 1%;
+    }
+  
+    .proj3 {
+      width: 100%;
+      height: 18%;
+      margin-right: 0%;
+      margin-bottom: 1%;
+    }
+  
+    .proj4 {
+      width: 100%;
+      height: 24%;
+      margin: 0%;
+      margin-bottom: 1%;
+    }
+  
+    .nav-titles {
+      width: 100%;
+      height: 4%;
+    }
+  
+    .nav-title {
+      font-weight: bold;
+    }
+  
+    /* * * * * * * * * * * * * * * * * *
+    * * *    MAX:410PX NAV-DIV   * * * *
+    * * * * * * * * * * * * * * * * * */
+    .head-div {
+      writing-mode: horizontal-tb;
+      transform: rotate(-0deg);
+      overflow: visible;
+      white-space: nowrap;
+      text-align: left;
+    }
+  
+    .name {
+      margin: 1.5vmin;
+    }
+  
+    .title {
+      margin: 1.5vmin;
+    }
+  
+    .japan-circle {
+      transform: translate(600vmin, -7vmin);
+      transition: transform 300ms ease-in-out;
+    }
+  
+    .japan-circle.animate {
+      transform: translate(-6vmin, -7vmin);
+      transition: transform 300ms ease-in-out;
+    }
+  }
+  
