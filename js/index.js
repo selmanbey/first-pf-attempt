@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     // THIS PART DOES NOT WORK! COULDN'T FIGURE OUT WHY.
     allIconLinks[i].addEventListener("click", function(e) {
-      e.preventDefault();
       allIcons[i].style.animation = "icon-clicked 100ms linear infinite";
     })
   }
