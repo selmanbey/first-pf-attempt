@@ -47,11 +47,6 @@ body {
   padding: 1%;
 }
 
-.filler1 {
-  width: 20%;
-  height: 70%;
-}
-
 .head-div {
   position: relative;
   width: 100%;
@@ -162,8 +157,11 @@ body {
 * * * * * * * * * * * * * * * * * */
 
 .who-am-i {
-  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   padding-right: 4vmin;
+  padding-bottom: 4vmin;
   cursor: pointer;
 }
 
@@ -202,3 +200,62 @@ body {
   transform: translate(-48vmin, -5vmin);
   transition: transform 200ms ease-in-out;
 }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * *  MEDIA QUERIES  * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * *  * * * * * * * * * * * * * * * * ** * * * * * */
+
+@media screen and (max-width: 1100px) {
+  /* * * * * * * * * * * * * * * * * *
+  * * *  MAX-W: 1100  NAV-DIV    * * *
+  * * * * * * * * * * * * * * * * * */
+  .name {
+    font-size: 8vmin;
+  }
+
+  .title {
+    font-size: 5vmin;
+  }
+
+  .japan-circle {
+    width: 23vmin;
+    height: 23vmin;
+  }
+
+  .japan-circle.animate {
+    transform: translate(-45vmin, -5vmin);
+  }
+
+}
+
+@media screen and (orientation: portrait) {
+    /* * * * * * * * * * * * * * * * * *
+    * * *  PORTRAIT  NAV-DIV   * * * *
+    * * * * * * * * * * * * * * * * * */
+
+    .nav-div {
+      display: flex;
+      width: 100%;
+      height: 68%;
+      padding: 1%;
+    }
+
+
+    .bio {
+      font-family: "Roboto Mono", monospace;
+      font-size: 2.5vmin;
+      text-align: justify;
+      overflow: scroll;
+      user-select: none;
+    }
+
+    .icon-explanation {
+      font-size: 2.5vmin;
+      margin-left: 1vmin;
+    }
+
+  }

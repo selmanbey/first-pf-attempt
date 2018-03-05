@@ -48,5 +48,5 @@ document.addEventListener("DOMContentLoaded", function(){
   //     background.style.backgroundImage = `url(${backgroundImages[backgroundImageIndex]})`;
   //   }
   // })
-  
+
 })
