@@ -208,7 +208,11 @@ body {
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * *  * * * * * * * * * * * * * * * * ** * * * * * */
+
 @media screen and (max-width: 1100px) {
+  /* * * * * * * * * * * * * * * * * *
+  * * *  MAX-W: 1100  NAV-DIV    * * *
+  * * * * * * * * * * * * * * * * * */
   .name {
     font-size: 8vmin;
   }
@@ -228,60 +232,30 @@ body {
 
 }
 
-
-
 @media screen and (orientation: portrait) {
     /* * * * * * * * * * * * * * * * * *
     * * *  PORTRAIT  NAV-DIV   * * * *
     * * * * * * * * * * * * * * * * * */
 
-    .background {
-      background-image: url("../pics/from_a_far.jpg");
-    }
-
-    /* .last-screen {
-      position: absolute;
-      width: 50%;
-      height: 100%;
-    }
-
-    .next-screen {
-      position: absolute;
-      width: 50%;
-      height: 100%;
-      margin-left: 50%;
-    } */
-
-
     .nav-div {
       display: flex;
-      width: 75%;
-      height: 70%;
+      width: 100%;
+      height: 68%;
       padding: 1%;
     }
 
-    .head-div {
-      position: relative;
-      width: 100%;
-      z-index: 1;
+
+    .bio {
+      font-family: "Roboto Mono", monospace;
+      font-size: 2.5vmin;
+      text-align: justify;
+      overflow: scroll;
+      user-select: none;
     }
 
-    .name {
-      position: relative;
-      font-family: 'Abril Fatface', cursive;
-      font-size: 8vmin;
-      font-weight: 300;
-      line-height: 75%;
-      user-select: none;
-      z-index: 1;
+    .icon-explanation {
+      font-size: 2.5vmin;
+      margin-left: 1vmin;
     }
 
-    .title {
-      position: relative;
-      font-family: 'Libre Barcode 128 Text', cursive;
-      font-size: 5vmin;
-      font-weight: 300;
-      margin-top: 4vmin;
-      user-select: none;
-      z-index: 1;
-    }
+  }
